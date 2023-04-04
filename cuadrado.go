@@ -5,7 +5,7 @@ type Cuadrado struct {
 }
 
 func (cua *Cuadrado) area() float64 {
-	return cua.Lado + cua.Lado
+	return cua.Lado * cua.Lado
 }
 
 func (cua *Cuadrado) perimetro() float64 {
